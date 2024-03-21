@@ -1,0 +1,133 @@
+[
+    {
+      "domainName": "example.com",
+      "records": [
+        { "recordType": "A", "value": "192.168.1.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.example.com", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "subdomain.example.com",
+      "records": [
+        { "recordType": "A", "value": "10.0.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "testdomain.com",
+      "records": [
+        { "recordType": "A", "value": "172.16.0.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.testdomain.com", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "sub.testdomain.com",
+      "records": [
+        { "recordType": "A", "value": "192.168.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "example.org",
+      "records": [
+        { "recordType": "A", "value": "10.10.0.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.example.org", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "subdomain.example.org",
+      "records": [
+        { "recordType": "A", "value": "172.20.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "test.org",
+      "records": [
+        { "recordType": "A", "value": "192.168.2.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.test.org", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "sub.test.org",
+      "records": [
+        { "recordType": "A", "value": "10.1.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "example.net",
+      "records": [
+        { "recordType": "A", "value": "172.30.0.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.example.net", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "subdomain.example.net",
+      "records": [
+        { "recordType": "A", "value": "192.168.3.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "test.net",
+      "records": [
+        { "recordType": "A", "value": "10.2.0.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.test.net", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "sub.test.net",
+      "records": [
+        { "recordType": "A", "value": "172.40.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "example.info",
+      "records": [
+        { "recordType": "A", "value": "192.168.4.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.example.info", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "subdomain.example.info",
+      "records": [
+        { "recordType": "A", "value": "10.3.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "test.info",
+      "records": [
+        { "recordType": "A", "value": "172.50.0.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.test.info", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "sub.test.info",
+      "records": [
+        { "recordType": "A", "value": "192.168.5.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "example.biz",
+      "records": [
+        { "recordType": "A", "value": "10.4.0.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.example.biz", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "subdomain.example.biz",
+      "records": [
+        { "recordType": "A", "value": "172.60.0.1", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "test.biz",
+      "records": [
+        { "recordType": "A", "value": "192.168.6.1", "TTL": 3600 },
+        { "recordType": "CNAME", "value": "www.test.biz", "TTL": 3600 }
+      ]
+    },
+    {
+      "domainName": "sub.test.biz",
+      "records": [
+        { "recordType": "A", "value": "10.5.0.1", "TTL": 3600 }
+      ]
+    }
+  ]
+  
